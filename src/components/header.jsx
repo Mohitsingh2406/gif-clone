@@ -61,7 +61,6 @@ const Header = () => {
                             <Link to="/favorites">Favorite GIFs</Link>
                         </div>
                     )}
-
                     {/* -- Mobile UI -- */}
                     <button onClick={() => setShowCategories(!showCategories)}>
                         <HiMiniBars3BottomRight
